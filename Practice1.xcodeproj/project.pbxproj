@@ -19,6 +19,10 @@
 		6324622A18AFBA39005C1E65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6324621218AFBA39005C1E65 /* UIKit.framework */; };
 		6324623218AFBA39005C1E65 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6324623018AFBA39005C1E65 /* InfoPlist.strings */; };
 		6324623418AFBA39005C1E65 /* Practice1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6324623318AFBA39005C1E65 /* Practice1Tests.m */; };
+		6324624218AFBB13005C1E65 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6324624118AFBB13005C1E65 /* Card.m */; };
+		6324624518AFBDDF005C1E65 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6324624418AFBDDF005C1E65 /* Deck.m */; };
+		63DF3F6018B138B7001D638C /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF3F5F18B138B7001D638C /* PlayingCard.m */; };
+		63DF3F6318B16857001D638C /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF3F6218B16857001D638C /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		6324622F18AFBA39005C1E65 /* Practice1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practice1Tests-Info.plist"; sourceTree = "<group>"; };
 		6324623118AFBA39005C1E65 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6324623318AFBA39005C1E65 /* Practice1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice1Tests.m; sourceTree = "<group>"; };
+		6324624018AFBB13005C1E65 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		6324624118AFBB13005C1E65 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		6324624318AFBDDF005C1E65 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		6324624418AFBDDF005C1E65 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		63DF3F5E18B138B7001D638C /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		63DF3F5F18B138B7001D638C /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		63DF3F6118B16857001D638C /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		63DF3F6218B16857001D638C /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,14 @@
 		6324620218AFBA38005C1E65 = {
 			isa = PBXGroup;
 			children = (
+				6324624018AFBB13005C1E65 /* Card.h */,
+				6324624118AFBB13005C1E65 /* Card.m */,
+				6324624318AFBDDF005C1E65 /* Deck.h */,
+				6324624418AFBDDF005C1E65 /* Deck.m */,
+				63DF3F5E18B138B7001D638C /* PlayingCard.h */,
+				63DF3F5F18B138B7001D638C /* PlayingCard.m */,
+				63DF3F6118B16857001D638C /* PlayingCardDeck.h */,
+				63DF3F6218B16857001D638C /* PlayingCardDeck.m */,
 				6324621418AFBA39005C1E65 /* Practice1 */,
 				6324622D18AFBA39005C1E65 /* Practice1Tests */,
 				6324620D18AFBA38005C1E65 /* Frameworks */,
@@ -240,8 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6324624518AFBDDF005C1E65 /* Deck.m in Sources */,
+				63DF3F6318B16857001D638C /* PlayingCardDeck.m in Sources */,
 				6324621B18AFBA39005C1E65 /* main.m in Sources */,
 				6324621F18AFBA39005C1E65 /* Practice1AppDelegate.m in Sources */,
+				63DF3F6018B138B7001D638C /* PlayingCard.m in Sources */,
+				6324624218AFBB13005C1E65 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +466,7 @@
 				6324623918AFBA39005C1E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6324623A18AFBA39005C1E65 /* Build configuration list for PBXNativeTarget "Practice1Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +475,7 @@
 				6324623C18AFBA39005C1E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
